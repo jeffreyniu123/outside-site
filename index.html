@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Outside</title>
+<meta name="description" content="One small outdoor task a day, counted only when you've really gone outside, and an avatar that grows with your streak.">
+<style>
+:root { --bg: #ffffff; --text: #1a1a1a; --muted: #5f6368; --accent: #2D8B4E; --line: #e5e7eb; }
+@media (prefers-color-scheme: dark) { :root { --bg: #111412; --text: #f1f3f2; --muted: #a3aba6; --accent: #4ADE80; --line: #2a302c; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+main, header, footer { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 24px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; }
+header .name { font-weight: 800; font-size: 20px; color: var(--accent); text-decoration: none; margin-right: auto; }
+header nav { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 15px; }
+a { color: var(--accent); }
+nav a { color: var(--muted); text-decoration: none; }
+nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
+h1 { font-size: 30px; line-height: 1.2; margin: 32px 0 8px; }
+h2 { font-size: 21px; margin: 32px 0 8px; }
+h3 { font-size: 17px; margin: 20px 0 4px; }
+p, li { overflow-wrap: anywhere; }
+.muted { color: var(--muted); }
+.lead { font-size: 18px; color: var(--muted); }
+.links { list-style: none; padding: 0; }
+.links li { padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 18px; }
+footer { margin-top: 48px; padding-top: 16px; padding-bottom: 32px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+<a class="name" href="./">Outside</a>
+<nav><a href="./privacy/">Privacy Policy</a><a href="./terms/">Terms of Use</a><a href="./support/">Support</a></nav>
+</header>
+<main>
+<h1>Outside</h1>
+<p class="lead">One small outdoor task a day, counted only when you've really gone outside, and an avatar that grows with your streak.</p>
+<ul class="links">
+<li><a href="privacy/">Privacy Policy</a></li>
+<li><a href="terms/">Terms of Use</a></li>
+<li><a href="support/">Support</a></li>
+</ul>
+</main>
+<footer>Outside · <a href="mailto:jeffreyniu.apps@gmail.com">jeffreyniu.apps@gmail.com</a></footer>
+</body>
+</html>
