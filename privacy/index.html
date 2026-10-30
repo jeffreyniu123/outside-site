@@ -35,24 +35,24 @@ footer { margin-top: 48px; padding-top: 16px; padding-bottom: 32px; border-top: 
 </header>
 <main>
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: October 31, 2026</p>
+<p class="muted">Last updated: November 1, 2026</p>
 <h2>Overview</h2>
 <p>Outside (&quot;we&quot;, &quot;us&quot;) is an app that helps you go outdoors every day. This policy explains what we collect, why, who we share it with and the choices you have. We don't sell your data and there are no ads.</p>
 <h2>What we collect</h2>
 <h3>Your account</h3>
 <p>When you sign up with email, Google or Apple we receive your email address. You choose a display name and username. Passwords are handled by our sign-in provider and stored only in hashed form; with Google or Apple we never see your password. If you use Apple's &quot;Hide My Email&quot;, we only see the relay address.</p>
 <h3>Your goal and progress</h3>
-<p>Your goal, the trips you told us you make, your daily tasks and completions (date, time spent outside, step count, and whether a photo was taken), your streak, rank, rewards, chosen avatar and streak freezes.</p>
+<p>Your goal, the trips you told us you make, your daily tasks and completions (date, time spent outside, step count, whether a photo was taken, and for a full completion a summary of the weather during it: rain, snow and the temperature, never where), your streak, rank, rewards, chosen avatar and streak freezes.</p>
 <h3>Your avatar, leaves and world</h3>
 <p>The names you give your avatars and when you adopted them; your leaves (the in-app currency, which can't be bought with money) and a record of each time they were earned or spent; the things you own, wear and place in your world, and where you placed them; and the things you've found outside, with what kind of outing found them (for example &quot;rain&quot; or &quot;sunset&quot;).</p>
 <h3>Location</h3>
 <p>We use your location when you set your home and during an outdoor session, and while your avatar's world is on screen (the phone's last known location, rounded to about 1 km, for the weather there); never in the background. We store your home location and the places where each session started and ended, to check you really went outside and away from home, and how far from the start you got. We don't track where you go between those points. If the app was closed or in the background during a session, it checks where you were when it stopped and when it came back. For a closed app, those two places are also sent to us to check that time; they aren't kept. For the world's weather our server looks it up for that rounded location; the answer is kept for that rounded area for 30 minutes and deleted within a day, and is never linked to you. After a session our server looks up the weather there (see Open-Meteo below) to decide what you might find outside; that weather isn't kept.</p>
 <h3>Photos</h3>
-<p>Photos you take for a task stay on your phone. To check a photo was taken outdoors, your phone itself looks at it (with Apple's on-device image recognition) and reads its exposure; only the result (a few words such as &quot;sky&quot; or &quot;tree&quot; with a score, and a brightness value) is sent to us, never the photo. Photos for the surprise sky check are not kept at all. If you choose to share a photo with friends (a post or a story), it is uploaded with its location and camera details removed first. Stories are deleted automatically after 24 hours.</p>
+<p>Photos you take for a task, and any extra photos you take during a session to share later, stay on your phone. To check a photo was taken outdoors, your phone itself looks at it (with Apple's on-device image recognition) and reads its exposure; only the result (a few words such as &quot;sky&quot; or &quot;tree&quot; with a score, and a brightness value) is sent to us, never the photo. Photos for the surprise sky check are not kept at all. If you choose to share photos with friends (a post or a story, up to 4), each is uploaded with its location and camera details removed first. Stories are deleted automatically after 24 hours.</p>
 <h3>Motion and light</h3>
 <p>During a session we count your steps with the phone's motion sensor and may read the light level, to help verify the session. We keep the session's total, its outdoor score (0 to 100) and the checks that made it up. If the app was closed or in the background during a session, we also keep the step count for each 5-minute stretch of that time, without times or places, to check that time, and to improve how we judge it; these are kept for 90 days. Outside never uses your microphone.</p>
 <h3>Friends and groups</h3>
-<p>Friend requests, friends, buddy groups, invites (and whether you accepted them in time), likes and nudges you send or receive, and any reports you make about other people. When you go outside with a friend you invited, we record that you went together and the bonus leaves it earned.</p>
+<p>Friend requests, friends, buddy groups, invites (and whether you accepted them in time), reactions and nudges you send or receive, and any reports you make about other people (a report about a post keeps what the post said at that moment). Posts and stories you share: the photos, what you write, a place if you type one (only those words, never a location), and which of your days it came from. When you go outside with a friend you invited, we record that you went together and the bonus leaves it earned.</p>
 <h3>Notifications</h3>
 <p>If you allow notifications, we store a push token so we can send reminders and updates from friends. You choose which kinds you get.</p>
 <h3>Purchases</h3>
@@ -73,7 +73,7 @@ footer { margin-top: 48px; padding-top: 16px; padding-bottom: 32px; border-top: 
 </ul>
 <h2>Who can see what</h2>
 <h3>Friends</h3>
-<p>Your friends can see your display name, username, avatar, streak, rank, the posts and stories you share, and whether you went outside today. They can also visit your world and see the things you've placed in it. Friends you go out with see that you went together.</p>
+<p>Your friends can see your display name, username, avatar, streak, rank, the posts and stories you share (with the outing they came from: minutes and steps unless you hide them, the weather, and anything you found that day), and whether you went outside today. They can also visit your world and see the things you've placed in it. Friends you go out with see that you went together.</p>
 <h3>Buddy group</h3>
 <p>Members of a group you join see the same, plus the group's weekly progress.</p>
 <h3>Everyone</h3>
@@ -93,7 +93,7 @@ footer { margin-top: 48px; padding-top: 16px; padding-bottom: 32px; border-top: 
 <h2>Storage and security</h2>
 <p>Your data is stored with Supabase and sent over encrypted connections (HTTPS). Shared photos are kept in private storage that only you and your friends can open. Some data, like your progress and task photos, is also kept on your phone.</p>
 <h2>How long we keep it</h2>
-<p>We keep your account data until you delete your account. Stories are deleted after 24 hours. When you delete your account in the app (Account &gt; Delete account and all data), we delete your account, progress, history, leaves, the things you own, wear, placed and found, your avatars' names, posts, stories, shared photos, friends, group membership, invites and nudges, along with the completion photos Outside keeps on the phone you delete it from. Pictures you saved to your Photos library stay there; Outside can't reach them.</p>
+<p>We keep your account data until you delete your account. Stories are deleted after 24 hours. When you delete your account in the app (Account &gt; Delete account and all data), we delete your account, progress, history, leaves, the things you own, wear, placed and found, your avatars' names, posts, stories, shared photos, reactions, friends, group membership, invites and nudges, along with the completion photos Outside keeps on the phone you delete it from. Pictures you saved to your Photos library stay there; Outside can't reach them.</p>
 <h2>Your rights and choices</h2>
 <ul>
 <li>See and change your profile in the app</li>
