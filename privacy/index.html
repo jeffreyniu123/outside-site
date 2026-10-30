@@ -35,7 +35,7 @@ footer { margin-top: 48px; padding-top: 16px; padding-bottom: 32px; border-top: 
 </header>
 <main>
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: October 29, 2026</p>
+<p class="muted">Last updated: October 30, 2026</p>
 <h2>Overview</h2>
 <p>Outside (&quot;we&quot;, &quot;us&quot;) is an app that helps you go outdoors every day. This policy explains what we collect, why, who we share it with and the choices you have. We don't sell your data and there are no ads.</p>
 <h2>What we collect</h2>
@@ -46,11 +46,11 @@ footer { margin-top: 48px; padding-top: 16px; padding-bottom: 32px; border-top: 
 <h3>Your avatar, leaves and world</h3>
 <p>The names you give your avatars and when you adopted them; your leaves (the in-app currency, which can't be bought with money) and a record of each time they were earned or spent; the things you own, wear and place in your world, and where you placed them; and the things you've found outside, with what kind of outing found them (for example &quot;rain&quot; or &quot;sunset&quot;).</p>
 <h3>Location</h3>
-<p>We use your location when you set your home and during an outdoor session, and while your avatar's world is on screen (the phone's last known location, rounded to about 1 km, for the weather there); never in the background. We store your home location and the places where each session started and ended, to check you really went outside and away from home, and how far from the start you got. We don't track where you go between those points. For the world's weather our server looks it up for that rounded location; the answer is kept for that rounded area for 30 minutes and deleted within a day, and is never linked to you. After a session our server looks up the weather there (see Open-Meteo below) to decide what you might find outside; that weather isn't kept.</p>
+<p>We use your location when you set your home and during an outdoor session, and while your avatar's world is on screen (the phone's last known location, rounded to about 1 km, for the weather there); never in the background. We store your home location and the places where each session started and ended, to check you really went outside and away from home, and how far from the start you got. We don't track where you go between those points. If the app was closed or in the background during a session, it checks where you were when it stopped and when it came back. For a closed app, those two places are also sent to us to check that time; they aren't kept. For the world's weather our server looks it up for that rounded location; the answer is kept for that rounded area for 30 minutes and deleted within a day, and is never linked to you. After a session our server looks up the weather there (see Open-Meteo below) to decide what you might find outside; that weather isn't kept.</p>
 <h3>Photos</h3>
 <p>Photos you take for a task stay on your phone. To check a photo was taken outdoors, your phone itself looks at it (with Apple's on-device image recognition) and reads its exposure; only the result (a few words such as &quot;sky&quot; or &quot;tree&quot; with a score, and a brightness value) is sent to us, never the photo. Photos for the surprise sky check are not kept at all. If you choose to share a photo with friends (a post or a story), it is uploaded with its location and camera details removed first. Stories are deleted automatically after 24 hours.</p>
 <h3>Motion and light</h3>
-<p>During a session we count your steps with the phone's motion sensor and may read the light level, to help verify the session. Only the totals are kept, with the session's outdoor score (0 to 100) and the checks that made it up. Outside never uses your microphone.</p>
+<p>During a session we count your steps with the phone's motion sensor and may read the light level, to help verify the session. We keep the session's total, its outdoor score (0 to 100) and the checks that made it up. If the app was closed or in the background during a session, we also keep the step count for each 5-minute stretch of that time, without times or places, to check that time, and to improve how we judge it; these are kept for 90 days. Outside never uses your microphone.</p>
 <h3>Friends and groups</h3>
 <p>Friend requests, friends, buddy groups, invites (and whether you accepted them in time), likes and nudges you send or receive, and any reports you make about other people. When you go outside with a friend you invited, we record that you went together and the bonus leaves it earned.</p>
 <h3>Notifications</h3>
@@ -58,7 +58,7 @@ footer { margin-top: 48px; padding-top: 16px; padding-bottom: 32px; border-top: 
 <h3>Purchases</h3>
 <p>If you subscribe to Outside Plus, Apple handles the payment; we never see your card details. We learn whether your subscription is active and when it renews or ends.</p>
 <h3>App usage</h3>
-<p>We may collect usage events (for example, which screens are opened and whether a session was completed), to fix problems and improve the app.</p>
+<p>We collect usage events (for example, which screens are opened, how far someone gets through the first screens, and whether a session was completed), to fix problems and improve the app. Before you have an account they're tied to a random ID on your phone; when you sign in, they're linked to your account. They never include what you type, your photos or your locations. You can turn this off in Account &gt; Privacy &gt; Share usage data; then none are sent.</p>
 <h2>App Lock and Screen Time</h2>
 <p>App Lock (part of Outside Plus) uses Apple's Screen Time tools. You pick the apps in Apple's own picker, and Apple only gives Outside an anonymous token for them: we never learn which apps you chose, and your choice never leaves your phone. We don't collect your screen time or app usage. We only record on our server the days you used an emergency unlock, because that affects your streak.</p>
 <h2>How we use it</h2>
@@ -101,6 +101,7 @@ footer { margin-top: 48px; padding-top: 16px; padding-bottom: 32px; border-top: 
 <li>Turn off notifications, location, camera or motion access in iOS Settings</li>
 <li>Leave a group or remove friends at any time</li>
 <li>Choose whether only friends or anyone can visit your world (Account &gt; Privacy)</li>
+<li>Turn off usage data (Account &gt; Privacy &gt; Share usage data)</li>
 <li>Ask us for a copy of your data, or to correct it, by email</li>
 </ul>
 <p>If you live in the EU or UK, you also have the right to object to or restrict how we use your data, and to complain to your data protection authority. We use your data to provide the service you asked for and, for analytics and safety, because of our legitimate interest in keeping the app working and safe.</p>
